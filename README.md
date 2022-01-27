@@ -31,7 +31,7 @@ Bundled dependencies:
 
 ``` shell
 sudo apt-get install libairspy-dev librtlsdr-dev libopencv-dev libproj-dev cmake
-git clone https://github.com/pietern/goestools
+git clone https://github.com/JosephTheTank13/goestools
 cd goestools
 git submodule init
 git submodule update --recursive
