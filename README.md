@@ -1,6 +1,6 @@
 # goestools-maintained
 
-An attempt at keeping goestools functional over time.
+An attempt at keeping goestools functional over time. If you encounter any problems, please create an issue and report the problem.
 
 This fork of goestools is meant for Ubuntu users (21.10 at the time of writing) you may run into issues on raspberry pi.
 
