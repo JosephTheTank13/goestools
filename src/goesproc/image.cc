@@ -299,7 +299,7 @@ cv::Mat Image::getScaledImage(bool shrink) const {
   cv::Mat raw = getRawImage();
   cv::Mat out(scaleSize(cv::Size(raw.cols, raw.rows), shrink), CV_8UC1);
   cv::resize(raw, out, out.size());
-  return std::move(out);
+  return out;
 }
 
 cv::Mat Image::getScaledImage(const Area& roi, bool shrink) const {
@@ -310,5 +310,5 @@ cv::Mat Image::getScaledImage(const Area& roi, bool shrink) const {
 }
 
 void Image::save(const std::string& path) const {
-  return out;
+  cv::imwrite(path, m_);
 }
