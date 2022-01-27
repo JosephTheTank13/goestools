@@ -1,5 +1,5 @@
 #include "derandomizer.h"
-#include <cstddef
+#include <cstddef>
 
 #include <util/error.h>
 
