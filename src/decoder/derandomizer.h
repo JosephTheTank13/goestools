@@ -1,5 +1,5 @@
 #pragma once
-#include <cstddef
+#include <cstddef>
 #include <stdint.h>
 
 #include <array>
