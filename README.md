@@ -8,7 +8,7 @@ This fork of goestools is meant for Ubuntu users (21.10 at the time of writing) 
 * **goeslrit**: Assemble LRIT files from packet stream.
 * **goesproc**: Process LRIT files into plain files and images.
 
-Since it seems peitern is no longer maintaining goestools, and it's a very commonly used peice of software I decided to try to merge all the fixes and workarounds I can find into one place so people can compile goestools on Ubuntu/debian. Raspberry Pi compiling using peitern's master branch still appears to work at the time of writing this.
+Since it seems pietern is no longer maintaining goestools, and it's a very commonly used peice of software I decided to try to merge all the fixes and workarounds I can find into one place so people can compile goestools on Ubuntu/debian. Raspberry Pi compiling using peitern's master branch still appears to work at the time of writing this.
 
 ## Requirements
 
